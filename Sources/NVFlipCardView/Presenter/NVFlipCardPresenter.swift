@@ -8,14 +8,14 @@
 import Foundation
 
 protocol NVFlipCardPresenterProtocol: ObservableObject {
-    var isFlipped: Bool { get }
-    func flipButtonTapped()
+  var isFlipped: Bool { get }
+  func flipButtonTapped()
 }
 
 class NVFlipCardPresenter: NVFlipCardPresenterProtocol {
-    @Published var isFlipped: Bool = false
+  @Published var isFlipped: Bool = false
 
-    func flipButtonTapped() {
-        isFlipped.toggle()
-    }
+  func flipButtonTapped() {
+    isFlipped.toggle()
+  }
 }
