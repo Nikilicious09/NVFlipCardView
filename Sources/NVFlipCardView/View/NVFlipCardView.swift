@@ -32,4 +32,3 @@ struct NVFlipCardView_Previews: PreviewProvider {
     NVFlipCardView(presenter: NVFlipCardPresenter())
   }
 }
-

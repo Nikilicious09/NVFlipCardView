@@ -26,7 +26,6 @@ let package = Package(
       dependencies: []),
     .testTarget(
       name: "NVFlipCardViewTests",
-      dependencies: ["NVFlipCardView"]),
+      dependencies: ["NVFlipCardView"])
   ]
 )
-
